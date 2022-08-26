@@ -1,0 +1,21 @@
+name: twitter_ads_api
+description: The lightweight and powerful wrapper library for Twitter Ads API written in Dart language. It works cross-platform.
+version: 0.0.1
+repository: https://github.com/twitter-dart/twitter-ads-api
+issue_tracker: https://github.com/twitter-dart/twitter-ads-api/issues
+
+environment:
+  sdk: '>=2.17.0 <3.0.0'
+
+dependencies:
+  freezer: ^0.6.0
+  json_annotation: ^4.6.0
+  freezed_annotation: ^2.1.0
+  oauth1: ^2.0.0
+
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.16.0
+  json_serializable: ^6.3.1
+  freezed: ^2.1.0+1
+  import_sorter: ^4.6.0
